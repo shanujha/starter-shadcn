@@ -1,0 +1,45 @@
+# Release Notes - Version 1.0
+
+We are excited to announce the release of version 1.0 of our Shadcn React Vite Starter! This initial release provides a solid foundation for building modern React applications with a sleek UI and efficient development workflow.
+
+## Features
+
+- React 18 integration
+- Vite for fast development and building
+- Shadcn UI components for a customizable and attractive interface
+- TypeScript support for improved code quality and developer experience
+- Tailwind CSS for utility-first styling
+
+## Included Components and Utilities
+
+### Components
+- Button
+- Card
+- Dialog
+- Dropdown Menu
+- Input
+- Label
+- Tabs
+- Toast
+
+### Blocks
+- Form with validation (using react-hook-form and zod)
+- Header with responsive navigation
+
+### Utils
+- cn utility for conditional className merging
+- useToast hook for displaying toast notifications
+
+### Libraries
+- @radix-ui/react-icons for a comprehensive icon set
+- lucide-react for additional icons
+- class-variance-authority for creating flexible component variants
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies: `npm install` or `yarn install`
+3. Start the development server: `npm run dev` or `yarn dev`
+4. Open your browser and navigate to `http://localhost:5173`
+
+We hope you enjoy using this starter template for your React projects. Happy coding!
