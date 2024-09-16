@@ -5,7 +5,7 @@ import { SignJWT } from 'jose';
 const secretKey = new TextEncoder().encode('your_secret_key_here')
 
 // Function to create a JWT
-async function createJWT(payload) {
+async function createJWT(payload: any) {
 
   const token = await new SignJWT(payload) // details to  encode in the token
       .setProtectedHeader({ alg: 'HS256' }) // algorithm

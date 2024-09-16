@@ -13,7 +13,7 @@ const TestFileUpload = () => {
 
   return (
     <div>
-      <FileUpload isUploaded={url !== null} onReset={()=> {}} cb={setUrl}>
+      <FileUpload uploadUrl={""} isUploaded={url !== null} onReset={()=> {}} cb={setUrl}>
         {url && <img src={url} />}
         {url && url}
       </FileUpload>

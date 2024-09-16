@@ -11,7 +11,7 @@ type IFileUploadProps = {
   cb: Function;
   onReset: Function;
   isUploaded?: boolean;
-  uploadUrl?: string;
+  uploadUrl: string;
   allowed?: string; //defaults to image pattern
 };
 
@@ -37,8 +37,7 @@ const FileUpload: React.FC<PropsWithChildren<IFileUploadProps>> = (props) => {
 
     try {
       const response = await axios.post(
-        props.uploadUrl ??
-        apiPool.baseUrl + apiPool.paths.upload,
+        props.uploadUrl,
         formData,
         {
           headers: {
