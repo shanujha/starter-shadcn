@@ -1,9 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { WelcomeWave } from "@/components/blocks/welcome"
 
 function TestPage() {
     return <Card className="m-3">
         <CardHeader>
+            <WelcomeWave />
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
                 Typography Demo
             </h1>
